@@ -42,6 +42,15 @@ public class DigitalVideoDisc {
         this.cost = cost;
     }
 
+    public DigitalVideoDisc(DigitalVideoDisc dvd) {
+        super();
+		this.title = dvd.title;
+        this.category = dvd.category;
+        this.director = dvd.director;
+        this.length = dvd.length;
+        this.cost = dvd.cost;
+    }
+
     public void setTitle(String title) {
         this.title = title;
     }

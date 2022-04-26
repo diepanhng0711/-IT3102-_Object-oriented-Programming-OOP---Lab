@@ -43,12 +43,13 @@ public class DateTest {
 					System.out.print("Year = ");
 					int ny = sc.nextInt();
 					MyDate md2 = new MyDate(nd, nm, ny);
+					System.out.println();
 					md2.printDate();
 					System.out.println();
 					break;
 				case 3:
-					System.out.println(" ??? -> Please enter the date string with the correct syntax <e.g: January 31st 2022>");
-					System.out.println("Date = ");
+					System.out.println(" ??? -> Please enter the date string with the correct syntax <e.g: January 31st 2022>\n");
+					System.out.print("Date = ");
 					
 					DateTest dt = new DateTest();
 					String s = dt.accept();

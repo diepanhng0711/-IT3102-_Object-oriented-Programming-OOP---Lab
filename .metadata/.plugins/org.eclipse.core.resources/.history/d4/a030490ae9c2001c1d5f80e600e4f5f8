@@ -1,0 +1,21 @@
+
+public class Order {
+	public static final int MAX_NUMBER_ORDERED = 10;
+	
+	private int qtyOrdered = 0;
+	
+    private DigitalVideoDisc itemsOrdered[] = new DigitalVideoDisc[MAX_NUMBER_ORDERED];
+    
+    public int getQtyOrdered () {
+    	return this.qtyOrdered;
+    }
+    
+    public void addDigitalVideoDisc(DigitalVideoDisc disc) {
+        if(qtyOrdered < MAX_NUMBER_ORDERED) {
+            itemsOrdered[qtyOrdered++] = disc;
+            System.out.println(disc.getTitle() + "has benn added!");
+        } else {
+            System.out.println("The order is already full!");
+        }
+    }
+}

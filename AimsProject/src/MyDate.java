@@ -1,4 +1,5 @@
 
+import java.time.LocalDate;
 import java.util.Calendar;
 import java.util.HashMap;
 
@@ -6,7 +7,12 @@ public class MyDate {
 	private int day;
 	private int month;
 	private int year;
-	
+	private LocalDate dateOrdered = LocalDate.now();
+
+	public LocalDate getLocalDate() {
+		return this.dateOrdered;
+	}
+
 	public MyDate() {
 		Calendar calendar = Calendar.getInstance();
 		this.day = calendar.get(Calendar.DATE);

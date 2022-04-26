@@ -1,0 +1,7 @@
+
+public class Aims {
+	Order anOrder = new Order();
+	
+	DigitalVideoDisc dvd1 = new DigitalVideoDisc("The Lion King");
+	dvd1.s
+}
