@@ -25,7 +25,7 @@ public class Aims {
 
 		Order anOrder2 = new Order();
 
-		ArrayList<DigitalVideoDisc> dvdList2 = new ArrayList<>();
+		ArrayList<DigitalVideoDisc> dvdList2 = new ArrayList<DigitalVideoDisc>();
 		dvdList2.add(new DigitalVideoDisc("Produce 101 Season 2 Ep.11", "Korean TV show", "Kim Yong-bum", 250, 12f));
 		dvdList2.add(new DigitalVideoDisc("Ai la Trieu Phu", "Vietnamese TV Show", "Lai Van Sam", 60, 0f));
 		anOrder2.addDigitalVideoDisc(dvdList2);
