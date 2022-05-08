@@ -1,3 +1,4 @@
+package hust.soict.hedspi.aims.utils;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
