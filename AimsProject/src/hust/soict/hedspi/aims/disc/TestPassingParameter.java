@@ -7,7 +7,7 @@ public class TestPassingParameter {
         o2 = tmp;
     }*/ //Wrong swap method since o1 and o2 have changed their references ,but the objects passed to the swap method haven't! 
 
-    public static void swap(DigitalVideoDisc dvd1, DigitalVideoDisc dvd2) {
+    /*public static void swap(DigitalVideoDisc dvd1, DigitalVideoDisc dvd2) {
         DigitalVideoDisc tmp = new DigitalVideoDisc(dvd1);
         dvd1.setTitle(dvd2.getTitle());
         dvd1.setCategory(dvd2.getCategory());
@@ -39,5 +39,5 @@ public class TestPassingParameter {
         changeTitle(jungleDVD, cinderellaDVD.getTitle());
         System.out.println("Jungle dvd title: " + jungleDVD.getTitle());
         //System.out.println("Cinderella dvd title: " + cinderellaDVD.getTitle());
-    }
+    }*/
 }

@@ -1,10 +1,12 @@
 package hust.soict.hedspi.aims.order;
 import java.util.ArrayList;
 
+import hust.soict.hedspi.aims.disc.CompactDisc;
 import hust.soict.hedspi.aims.disc.DigitalVideoDisc;
 import hust.soict.hedspi.aims.media.Media;
 import hust.soict.hedspi.aims.media.Book;
 import hust.soict.hedspi.aims.utils.MyDate;
+import hust.soict.hedspi.aims.disc.track.Track;
 
 public class Order {
 	public static final int MAX_NUMBER_ORDERED = 10;
@@ -116,7 +118,7 @@ public class Order {
             if (item instanceof DigitalVideoDisc) {
                 DigitalVideoDisc disc = new DigitalVideoDisc((DigitalVideoDisc) item);  //down-casting
             System.out.println("DVD - [" + disc.getTitle() + "] - [" + disc.getCategory() + "] - [" + disc.getDirector() + "] - [" + disc.getLength() + "]: [" + disc.getCost() + " $]");
-            } else {
+            } else if (item instanceof Book) {
                 Book book = new Book((Book) item);                                      //down-casting
                 System.out.println("--> Book: [" + book.getTitle() + "]");
                 System.out.println(" <+> Category: [" + book.getCategory() + "]");
@@ -127,6 +129,21 @@ public class Order {
                 }
                 System.out.println();
                 System.out.println(" <+> Cost: [" + book.getCost() + " $]");
+            } else if (item instanceof CompactDisc) {
+                CompactDisc compactDisc = new CompactDisc((CompactDisc) item);
+
+                System.out.println("--> CD: [" + compactDisc.getTitle() + "]");
+                System.out.println("--> Artist: [" + compactDisc.getArtist() + "]");
+                System.out.println("--> Tracks list: ");
+                System.out.println();
+                int serialNum = 1;
+                for (Track track: compactDisc.getTracks()) {
+                    System.out.println(serialNum + ". " + track.getTitle());
+                    System.out.println(" --> Length: " + track.getLength());
+                    System.out.println();
+                    serialNum++;
+                }
+                System.out.println("--> Length of CD: [" + compactDisc.getLength() + "]");
             }
             System.out.println();
         }

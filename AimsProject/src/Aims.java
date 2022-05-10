@@ -2,15 +2,19 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import hust.soict.hedspi.aims.disc.CompactDisc;
 import hust.soict.hedspi.aims.disc.DigitalVideoDisc;
 import hust.soict.hedspi.aims.media.Book;
 import hust.soict.hedspi.aims.media.Media;
 import hust.soict.hedspi.aims.order.Order;
+import hust.soict.hedspi.aims.disc.track.Track;
+import hust.soict.hedspi.aims.threads.MemoryDeamon;
 
 public class Aims {
 	public static void main(String args[]) {
 		ArrayList<Order> anOrder = new ArrayList<Order>();
 		int numOrder = 0;
+		MemoryDeamon memoryUsed = new MemoryDeamon();
 
 		while (true) {
 			Scanner sc = new Scanner(System.in);
@@ -37,6 +41,7 @@ public class Aims {
 					anOrder.add(newOrder);
 					numOrder++;
 					System.out.println("Number of existing orders: " + anOrder.size() + "\n");
+					System.out.println("Memory used: " + memoryUsed.getMemoryUsed());
 					break;
 				case 2:
 					if (numOrder == 0) {
@@ -44,7 +49,7 @@ public class Aims {
 						break;
 					}
 					System.out.println("\n2. Add item to the order\n");
-					System.out.println("Please enter <1. Disc> / <2. Book>");
+					System.out.println("Please enter <1. DigitalVideoDisc> / <2.CompactDisc> / <3. Book>");
 					System.out.print("  --> ");
 					int type = sc.nextInt();
 
@@ -72,9 +77,43 @@ public class Aims {
 						DigitalVideoDisc newDisc = new DigitalVideoDisc(nID, nTitle, nCategory, nDirector, nLength, nCost);
 						anOrder.get(anOrder.size() - 1).addMedia(newDisc);
 					} else if (type == 2) {
+						System.out.println("Please enter the compact disc information first following this format");
+						System.out.println("---<ID - Title - Artist - Cost>---");
+						System.out.print("--> ID: \n");
+						String nID = sc.next();
+						sc.nextLine();
+						System.out.println("--> Title: ");
+						String nDiscTitle = sc.nextLine();
+						//sc.nextLine();
+						System.out.println("--> Artist: ");
+						String nArtist = sc.nextLine();
+						//sc.nextLine();
+						System.out.println("--> Cost: ");
+						float nCost = sc.nextFloat();
+
+						CompactDisc newCompactDisc = new CompactDisc(nID, nDiscTitle, nArtist, nCost);
+
+						System.out.print("Enter the number of tracks in this compact disc: ");
+						int numTrack = sc.nextInt();
+						sc.nextLine();
+
+						for (int i = 0; i < numTrack; i++) {
+							sc.nextLine();
+							System.out.println("Input track --->");
+							System.out.println("--> Track's title: ");
+							String nTrack = sc.nextLine();
+							//sc.nextLine();
+							System.out.println("--> Track's length: ");
+							int nLength = sc.nextInt();
+
+							Track newTrack = new Track(nTrack, nLength);
+							newCompactDisc.addTrack(newTrack);
+						}
+						anOrder.get(anOrder.size() - 1).addMedia(newCompactDisc);
+					} else if (type == 3) {
 						System.out.println("Please enter the information of the book following this format");
 						System.out.println("---<ID - Title - Category - Number of author - Authors' list - Cost>---");
-						System.out.println("--> ID: ");
+						System.out.println("--> ID: \n");
 						String nID = sc.next();
 						sc.nextLine();
 						//sc.nextLine();
@@ -104,13 +143,13 @@ public class Aims {
 					} else {
 						System.out.println("Wrong choice!");
 					}
+					System.out.println("Memory used: " + memoryUsed.getMemoryUsed());
 					break;
 				case 3:
 					if (numOrder == 0) {
 						System.out.println("\nNo exisiting order! Please create a new order first!\n");
 						break;
 					}
-
 					//int checkflag = 0;
 
 					System.out.println("\n3. Delete item by id\n");
@@ -118,18 +157,9 @@ public class Aims {
 					String ID = sc.next();
 					sc.nextLine();
 
-					/*for(int i = 0; i < anOrder.get(anOrder.size() - 1).getQtyOrdered(); i++) {
-						if(ID.equals(anOrder.get(anOrder.size() - 1).getMedia(i).getId())) {
-							anOrder.get(anOrder.size() - 1).removeMedia(anOrder.get(anOrder.size() - 1).getMedia(i));
-							System.out.println(anOrder.get(anOrder.size() - 1).getMedia(i).getTitle());
-							checkflag = 1;
-							break;
-						}
-					}*/
-
 					anOrder.get(anOrder.size() - 1).removeMedia(ID);
+					System.out.println("Memory used: " + memoryUsed.getMemoryUsed());
 			
-					//if (checkflag == 0) System.out.println("Cannot find the media in the list!");
 					break;
 				case 4:
 					if (numOrder == 0) {
@@ -145,6 +175,7 @@ public class Aims {
 					numList = sc.nextInt();
 					} while (numList < 1 || numList > numOrder);
 					anOrder.get(numList - 1).printAnOrder();
+					System.out.println("Memory used: " + memoryUsed.getMemoryUsed());
 					break;
 				case 0:
 					System.out.println("\n0. Exit\n");
