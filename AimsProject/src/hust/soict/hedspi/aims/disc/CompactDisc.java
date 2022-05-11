@@ -45,9 +45,12 @@ public class CompactDisc extends Disc implements Playable {
         this.tracks = disc.getTracks();
     }
 
+    public void contains(Track newTrack) {
+    }
+
     public void addTrack(Track newTrack) {
         for(Track track: this.tracks) {
-            if (newTrack.getTitle().equals(track.getTitle())) {
+            if (newTrack.equals(track)) {
                 System.out.println("The track [" + newTrack.getTitle() + "] is already in the list!");
                 System.out.println();
                 return ;
@@ -62,7 +65,7 @@ public class CompactDisc extends Disc implements Playable {
     public void removeTrack(Track removeTrack) {
         int checkflag = 0;
         for(Track track: tracks) {
-            if (removeTrack.getTitle().equals(track.getTitle())) {
+            if (removeTrack.equals(track)) {
                 tracks.remove(removeTrack);
                 checkflag = 1;
                 break;

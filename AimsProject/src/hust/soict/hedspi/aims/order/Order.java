@@ -130,7 +130,7 @@ public class Order {
                 System.out.println();
                 System.out.println(" <+> Cost: [" + book.getCost() + " $]");
             } else if (item instanceof CompactDisc) {
-                CompactDisc compactDisc = new CompactDisc((CompactDisc) item);
+                CompactDisc compactDisc = new CompactDisc((CompactDisc) item);          //down-casting
 
                 System.out.println("--> CD: [" + compactDisc.getTitle() + "]");
                 System.out.println("--> Artist: [" + compactDisc.getArtist() + "]");
