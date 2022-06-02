@@ -1,9 +1,10 @@
 package hust.soict.hedspi.aims.order;
 import java.util.ArrayList;
+import java.util.Random;
 
-import hust.soict.hedspi.aims.disc.DigitalVideoDisc;
 import hust.soict.hedspi.aims.media.Media;
 import hust.soict.hedspi.aims.media.Book;
+import hust.soict.hedspi.aims.media.DigitalVideoDisc;
 import hust.soict.hedspi.aims.utils.MyDate;
 
 public class Order {
@@ -29,7 +30,7 @@ public class Order {
         System.out.println("A new order has been created!");
     }
 
-    public int getNumberOfOrders() {
+    public static int getNumberOfOrders() {
         return nbOrders;
     }
     
@@ -37,9 +38,9 @@ public class Order {
     	return this.qtyOrdered;
     }
 
-    public void setQtyOrdered(int qtyOrdered) {
+    /*public void setQtyOrdered(int qtyOrdered) {
         this.qtyOrdered = qtyOrdered;
-    }
+    }*/
 
     public Media getMedia(int index) {
         return itemsOrdered.get(index);
@@ -54,6 +55,16 @@ public class Order {
             System.out.println("The order is already full!");
         }
     }
+
+
+    //Optimizing code for addMedia method
+    /*
+    public void addMedia(Media media) {
+        if (!this.itemsOrdered.contains(media)) {
+            this.itemsOrdered.add(media);
+        }
+    }
+    */
 
     //xóa đĩa trực tiếp
     public void removeMedia(Media media) {
@@ -103,6 +114,14 @@ public class Order {
             total += item.getCost();
         }
         return total;
+    }
+
+    //Trúng thưởng => được free đơn hàng
+    public Media getALuckyItem() {
+        Random random = new Random();
+        int luckyNumber = random.nextInt(this.itemsOrdered.size());
+        itemsOrdered.get(luckyNumber).setCost(0);
+        return itemsOrdered.get(luckyNumber);
     }
 
     public void printAnOrder() throws NullPointerException {

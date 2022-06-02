@@ -1,5 +1,7 @@
 package hust.soict.hedspi.aims.disc;
 
+import hust.soict.hedspi.aims.media.DigitalVideoDisc;
+
 public class TestPassingParameter {
     /*public static void swap(Object o1, Object o2) {
         Object tmp = o1;

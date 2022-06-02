@@ -1,4 +1,4 @@
-package hust.soict.hedspi.aims.disc;
+package hust.soict.hedspi.aims.media;
 
 import hust.soict.hedspi.aims.media.*;
 

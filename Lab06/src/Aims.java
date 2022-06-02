@@ -2,15 +2,14 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import hust.soict.hedspi.aims.disc.DigitalVideoDisc;
 import hust.soict.hedspi.aims.media.Book;
+import hust.soict.hedspi.aims.media.DigitalVideoDisc;
 import hust.soict.hedspi.aims.media.Media;
 import hust.soict.hedspi.aims.order.Order;
 
 public class Aims {
 	public static void main(String args[]) {
 		ArrayList<Order> anOrder = new ArrayList<Order>();
-		int numOrder = 0;
 
 		while (true) {
 			Scanner sc = new Scanner(System.in);
@@ -29,17 +28,16 @@ public class Aims {
 			switch (choice) {
 				case 1:
 					System.out.println("\n1. Create new order\n");
-					if(numOrder == 5) {
+					if(Order.getNumberOfOrders() == 5) {
 						System.out.println("Full of orders!\n");
 						break;
 					}
 					Order newOrder = new Order();	
 					anOrder.add(newOrder);
-					numOrder++;
 					System.out.println("Number of existing orders: " + anOrder.size() + "\n");
 					break;
 				case 2:
-					if (numOrder == 0) {
+					if (Order.getNumberOfOrders() == 0) {
 						System.out.println("\nNo exisiting order! Please create a new order first!\n");
 						break;
 					}
@@ -95,7 +93,7 @@ public class Aims {
 							Authors.add(nAuthor);
 						}
 
-						//sc.nextLine();
+						//sc.next();
 						System.out.println("--> Cost: ");
 						float nCost = sc.nextFloat();
 
@@ -106,7 +104,7 @@ public class Aims {
 					}
 					break;
 				case 3:
-					if (numOrder == 0) {
+					if (Order.getNumberOfOrders() == 0) {
 						System.out.println("\nNo exisiting order! Please create a new order first!\n");
 						break;
 					}
@@ -132,7 +130,7 @@ public class Aims {
 					//if (checkflag == 0) System.out.println("Cannot find the media in the list!");
 					break;
 				case 4:
-					if (numOrder == 0) {
+					if (Order.getNumberOfOrders() == 0) {
 						System.out.println("\nNo exisiting order! Please create a new order first!\n");
 						break;
 					}
@@ -143,7 +141,7 @@ public class Aims {
 					
 					System.out.print("--> Enter the order list's number: ");
 					numList = sc.nextInt();
-					} while (numList < 1 || numList > numOrder);
+					} while (numList < 1 || numList > Order.getNumberOfOrders());
 					anOrder.get(numList - 1).printAnOrder();
 					break;
 				case 0:
