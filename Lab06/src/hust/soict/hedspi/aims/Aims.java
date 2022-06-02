@@ -1,3 +1,4 @@
+package hust.soict.hedspi.aims;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
