@@ -66,7 +66,7 @@ public class Order {
     }
     */
 
-    //xóa đĩa trực tiếp
+    //xóa đĩa trực tiếp theo tham chiếu
     public void removeMedia(Media media) {
         if (qtyOrdered == 0) {
             System.out.println("Empty media list!");
@@ -124,6 +124,7 @@ public class Order {
         return itemsOrdered.get(luckyNumber);
     }
 
+    //Handling potential Null Pointer Exception
     public void printAnOrder() throws NullPointerException {
         System.out.println("***********************Order***********************");
         MyDate dateOrdered = new MyDate();
@@ -139,7 +140,7 @@ public class Order {
                 Book book = new Book((Book) item);                                      //down-casting
                 System.out.println("--> Book: [" + book.getTitle() + "]");
                 System.out.println(" <+> Category: [" + book.getCategory() + "]");
-                System.out.print(" <+>Author(s):");
+                System.out.print(" <+> Author(s):");
                 
                 for (String author: book.getAuthors()) {
                     System.out.print(" [" + author + "]");
