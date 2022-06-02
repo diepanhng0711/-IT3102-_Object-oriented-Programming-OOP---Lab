@@ -13,7 +13,6 @@ import hust.soict.hedspi.aims.threads.MemoryDeamon;
 public class Aims {
 	public static void main(String args[]) {
 		ArrayList<Order> anOrder = new ArrayList<Order>();
-		int numOrder = 0;
 		MemoryDeamon memoryUsed = new MemoryDeamon();
 
 		while (true) {
@@ -33,18 +32,17 @@ public class Aims {
 			switch (choice) {
 				case 1:
 					System.out.println("\n1. Create new order\n");
-					if(numOrder == 5) {
-						System.out.println("Full of orders!\n");
+					if(Order.getNumberOfOrders() == 5) {
+						System.out.println("Full of orders! Cannot add another order\n");
 						break;
 					}
 					Order newOrder = new Order();	
 					anOrder.add(newOrder);
-					numOrder++;
 					System.out.println("Number of existing orders: " + anOrder.size() + "\n");
 					System.out.println("Memory used: " + memoryUsed.getMemoryUsed());
 					break;
 				case 2:
-					if (numOrder == 0) {
+					if (Order.getNumberOfOrders() == 0) {
 						System.out.println("\nNo exisiting order! Please create a new order first!\n");
 						break;
 					}
@@ -146,7 +144,7 @@ public class Aims {
 					System.out.println("Memory used: " + memoryUsed.getMemoryUsed());
 					break;
 				case 3:
-					if (numOrder == 0) {
+					if (Order.getNumberOfOrders() == 0) {
 						System.out.println("\nNo exisiting order! Please create a new order first!\n");
 						break;
 					}
@@ -162,7 +160,7 @@ public class Aims {
 			
 					break;
 				case 4:
-					if (numOrder == 0) {
+					if (Order.getNumberOfOrders() == 0) {
 						System.out.println("\nNo exisiting order! Please create a new order first!\n");
 						break;
 					}
@@ -173,7 +171,7 @@ public class Aims {
 					
 					System.out.print("--> Enter the order list's number: ");
 					numList = sc.nextInt();
-					} while (numList < 1 || numList > numOrder);
+					} while (numList < 1 || numList > Order.getNumberOfOrders());
 					anOrder.get(numList - 1).printAnOrder();
 					System.out.println("Memory used: " + memoryUsed.getMemoryUsed());
 					break;

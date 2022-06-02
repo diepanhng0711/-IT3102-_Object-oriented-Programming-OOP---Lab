@@ -23,15 +23,11 @@ public class Order {
 
 
     public Order() {
-        if (nbOrders >= 5) {
-            System.out.println("Full of orders! Cannot add another order!");
-            return ;
-        }
         nbOrders++;
         System.out.println("A new order has been created!");
     }
 
-    public int getNumberOfOrders() {
+    public static int getNumberOfOrders() {
         return nbOrders;
     }
     
