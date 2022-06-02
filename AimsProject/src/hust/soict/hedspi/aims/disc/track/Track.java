@@ -20,6 +20,14 @@ public class Track implements Playable {
         return this.length;
     }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public void setLength(int length) {
+        this.length = length;
+    }
+
+
     public void play() {
         System.out.println("Playing Track: " + this.getTitle());
         System.out.println("Track length: " + this.getLength());

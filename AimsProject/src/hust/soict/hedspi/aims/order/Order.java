@@ -23,15 +23,15 @@ public class Order {
 
 
     public Order() {
-        if (nbOrders >= 5) {
+        /*if (nbOrders >= 5) {
             System.out.println("Full of orders! Cannot add another order!");
             return ;
-        }
+        }*/         //Wrong if syntax since a new Order instance is still created after returning a null value to exit the constructor of this class
         nbOrders++;
         System.out.println("A new order has been created!");
     }
 
-    public int getNumberOfOrders() {
+    public static int getNumberOfOrders() {
         return nbOrders;
     }
     
