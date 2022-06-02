@@ -1,5 +1,8 @@
 package hust.soict.hedspi.aims.disc;
 
+import java.math.*;
+import java.util.Random;
+
 public class DigitalVideoDisc {
     private String title;
     private String category;
@@ -100,4 +103,27 @@ public class DigitalVideoDisc {
         System.out.println("Length: " + this.length);
         System.out.println("Cost: " + this.cost);
     }
+
+    public boolean search(String title) {
+        String sTitle[] = title.split(" ");
+
+        String thisTitle[] = this.title.split(" ");
+
+        int count = 0;
+        for (String word: sTitle) {
+            count++;
+        }
+        for (int i = 0; i < count; i++) {
+            int j = i;
+            int check = 0;
+            for(String otherWord: sTitle) {
+                if(otherWord.equals(sTitle[j++])) check = 1;
+                else check = 0;
+            }
+            if (check == 1) return true;
+        }
+        return false;
+    }
+
+    
 }

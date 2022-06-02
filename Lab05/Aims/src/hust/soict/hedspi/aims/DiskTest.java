@@ -1,12 +1,12 @@
 package hust.soict.hedspi.aims;
-import hust.soict.hedspi.aims.disc.*;
-import hust.soict.hedspi.aims.order.*;
-//import hust.soict.hedspi.aims.utils.*;
 
 import java.util.ArrayList;
 
-public class Aims {
-	public static void main(String args[]) {
+import hust.soict.hedspi.aims.disc.DigitalVideoDisc;
+import hust.soict.hedspi.aims.order.Order;
+
+public class DiskTest {
+    public static void main(String args[]) {
 		Order anOrder = new Order();
 		
 		DigitalVideoDisc dvd1 = new DigitalVideoDisc("The Lion King", "Animation", "Roger Allers", 87, 19.95f);
@@ -39,10 +39,31 @@ public class Aims {
 		System.out.print("Total cost is: ");
 		System.out.println(anOrder.totalCost());
 		System.out.println("The number of discs in the first order is " + anOrder.getQtyOrdered());
-        System.out.println("The number of discs in the second order is " + anOrder2.getQtyOrdered());
+        System.out.println("The number of discs in the first second is " + anOrder2.getQtyOrdered());
 		System.out.println("The number of orders = " + anOrder.getNumberOfOrders());
 
 		System.out.println("***************************************************");
+		System.out.println();
+		anOrder.printAnOrder();
+        System.out.println();
+
+        DigitalVideoDisc luckyItem = anOrder.getALuckyItem();
+
+        if (luckyItem != null) {
+            System.out.println("The lucky item is: " + luckyItem.getTitle());
+            System.out.println("The cost of the lucky item now is: " + luckyItem.getCost());
+        } else {
+            System.out.println("There is no lucky item!");
+        }
+        System.out.println();
+        
+        System.out.print("Total cost is: ");
+		System.out.println(anOrder.totalCost());
+		System.out.println("The number of discs in the first order is " + anOrder.getQtyOrdered());
+        System.out.println("The number of discs in the first second is " + anOrder2.getQtyOrdered());
+		System.out.println("The number of orders = " + anOrder.getNumberOfOrders());
+
+        System.out.println("***************************************************");
 		System.out.println();
 		anOrder.printAnOrder();
 	}

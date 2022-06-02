@@ -3,6 +3,8 @@ import hust.soict.hedspi.aims.disc.*;
 import hust.soict.hedspi.aims.utils.*;
 
 import java.util.ArrayList;
+import java.math.*;
+import java.util.Random;
 
 public class Order {
 	public static final int MAX_NUMBER_ORDERED = 10;
@@ -102,6 +104,13 @@ public class Order {
             total += itemsOrdered[i].getCost();
         }
         return total;
+    }
+
+    public DigitalVideoDisc getALuckyItem() {
+        Random rd = new Random();
+        int luckynumber = rd.nextInt(this.qtyOrdered);
+        this.itemsOrdered[luckynumber].setCost(0);
+        return this.itemsOrdered[luckynumber];
     }
 
     public void printAnOrder() throws NullPointerException {
