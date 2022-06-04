@@ -1,11 +1,7 @@
 package hust.soict.hedspi.garbage;
 
-import java.util.ArrayList;
-import java.util.Date;
-
 public class NoGarbage{
     public static void main(String[] args) {
-        NoGarbage GC = new NoGarbage();
         GarbageCreator g1 = new GarbageCreator();
         GarbageCreator g2 = new GarbageCreator();
         GarbageCreator g3 = new GarbageCreator();
@@ -62,7 +58,7 @@ public class NoGarbage{
         }
 
         try {
-            Thread.sleep(5000);
+            Thread.sleep(2500);
         } catch (InterruptedException e) {
             System.out.println("Interrupted!");
         }
@@ -71,7 +67,5 @@ public class NoGarbage{
         System.out.println("getReferenceCounter: " + GarbageCreator.getReferenceCounter());
         System.out.println("getGarbageQuantity: " + GarbageCreator.getGarbageQuantity());
         System.out.println();
-
-
     }
 }
