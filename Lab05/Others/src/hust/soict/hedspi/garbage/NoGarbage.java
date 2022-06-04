@@ -29,7 +29,7 @@ public class NoGarbage{
 
         if (GarbageCreator.getGarbageQuantity() >= 5) {
             System.out.println("Too much garbage!");
-            System.gc();
+            System.gc();                    //System method to force garbage collection
         }
 
         System.out.println("getReferenceCounter: " + GarbageCreator.getReferenceCounter());
@@ -54,7 +54,7 @@ public class NoGarbage{
         
         if (GarbageCreator.getGarbageQuantity() >= 5) {
             System.out.println("Too much garbage!");
-            System.gc();
+            System.gc();                    //System method to force garbage collection
         }
 
         try {
