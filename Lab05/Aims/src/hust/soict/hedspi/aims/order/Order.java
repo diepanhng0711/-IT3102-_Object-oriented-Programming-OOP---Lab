@@ -26,7 +26,7 @@ public class Order {
         nbOrders++;
     }
 
-    public int getNumberOfOrders() {
+    public static int getNumberOfOrders() {
         return nbOrders;
     }
     
