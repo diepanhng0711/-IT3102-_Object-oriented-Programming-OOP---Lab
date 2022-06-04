@@ -1,5 +1,6 @@
 package hust.soict.hedspi.aims.order;
 import java.util.ArrayList;
+import java.util.Random;
 
 import hust.soict.hedspi.aims.disc.CompactDisc;
 import hust.soict.hedspi.aims.disc.DigitalVideoDisc;
@@ -107,6 +108,14 @@ public class Order {
         return total;
     }
 
+    public Media getALuckyItem() {
+        Random rd = new Random();
+        int luckynumber = rd.nextInt(this.qtyOrdered);
+        this.itemsOrdered.get(luckynumber).setCost(0);
+        return this.itemsOrdered.get(luckynumber);
+    }
+
+    //Handling NullPointerException
     public void printAnOrder() throws NullPointerException {
         System.out.println("***********************Order***********************");
         MyDate dateOrdered = new MyDate();
@@ -122,7 +131,7 @@ public class Order {
                 Book book = new Book((Book) item);                                      //down-casting
                 System.out.println("--> Book: [" + book.getTitle() + "]");
                 System.out.println(" <+> Category: [" + book.getCategory() + "]");
-                System.out.print(" <+>Author(s):");
+                System.out.print(" <+> Author(s):");
                 
                 for (String author: book.getAuthors()) {
                     System.out.print(" [" + author + "]");

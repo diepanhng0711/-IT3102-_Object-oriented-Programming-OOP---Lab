@@ -38,9 +38,9 @@ public abstract class Media implements Comparable<Media> {
         return this.cost;
     }
 
-    /*public void setCost(float cost) {
+    public void setCost(float cost) {
         this.cost = cost;
-    }*/
+    }
 
     public String getId() {
         return this.id;

@@ -33,7 +33,7 @@ public class TestMediaCompareTo {
 
         //Initialize new DVD dvd1 & dvd2
         DigitalVideoDisc dvd1 = new DigitalVideoDisc("ID03", "The greatest showman", "Musical movie", "Micheal Gracey", 104, 82f);
-        DigitalVideoDisc dvd2 = new DigitalVideoDisc("ID04", "Kimi no nawa", "Shinkai Makoto", "Anime movie", 107, 35);
+        DigitalVideoDisc dvd2 = new DigitalVideoDisc("ID04", "Kimi no nawa", "Anime movie", "Shinkai Makoto", 107, 35);
 
         //Initialize new discList in which contains information of CDs & DVDs added 
         Collection<Media> discList = new ArrayList<Media>();

@@ -45,7 +45,9 @@ public class CompactDisc extends Disc implements Playable {
         this.tracks = disc.getTracks();
     }
 
-    public void contains(Track newTrack) {
+    public boolean contains(Track newTrack) {
+        //TO DO 
+        return true;
     }
 
     public void addTrack(Track newTrack) {
