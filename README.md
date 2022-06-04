@@ -6,3 +6,5 @@
 --> Toolkits              : SceneBuilder2.0
 <br>
 --> Languages             : Java(core), CSS, FXML
+<br>
+--> GUI Libraries         : JavaFX
