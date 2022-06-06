@@ -1,0 +1,15 @@
+D:\Cybernetic\Hoc C#\HowKTeam\Array1D\bin\Debug\net6.0\Array1D.exe
+D:\Cybernetic\Hoc C#\HowKTeam\Array1D\bin\Debug\net6.0\Array1D.deps.json
+D:\Cybernetic\Hoc C#\HowKTeam\Array1D\bin\Debug\net6.0\Array1D.runtimeconfig.json
+D:\Cybernetic\Hoc C#\HowKTeam\Array1D\bin\Debug\net6.0\Array1D.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Array1D\bin\Debug\net6.0\ref\Array1D.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Array1D\bin\Debug\net6.0\Array1D.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\Array1D\obj\Debug\net6.0\Array1D.csproj.AssemblyReference.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Array1D\obj\Debug\net6.0\Array1D.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cybernetic\Hoc C#\HowKTeam\Array1D\obj\Debug\net6.0\Array1D.AssemblyInfoInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Array1D\obj\Debug\net6.0\Array1D.AssemblyInfo.cs
+D:\Cybernetic\Hoc C#\HowKTeam\Array1D\obj\Debug\net6.0\Array1D.csproj.CoreCompileInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Array1D\obj\Debug\net6.0\Array1D.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Array1D\obj\Debug\net6.0\ref\Array1D.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Array1D\obj\Debug\net6.0\Array1D.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\Array1D\obj\Debug\net6.0\Array1D.genruntimeconfig.cache

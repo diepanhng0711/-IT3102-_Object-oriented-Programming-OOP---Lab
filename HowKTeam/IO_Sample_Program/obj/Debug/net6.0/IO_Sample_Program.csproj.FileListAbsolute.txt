@@ -1,0 +1,14 @@
+D:\Cybernetic\Hoc C#\HowKTeam\IO_Sample_Program\bin\Debug\net6.0\IO_Sample_Program.exe
+D:\Cybernetic\Hoc C#\HowKTeam\IO_Sample_Program\bin\Debug\net6.0\IO_Sample_Program.deps.json
+D:\Cybernetic\Hoc C#\HowKTeam\IO_Sample_Program\bin\Debug\net6.0\IO_Sample_Program.runtimeconfig.json
+D:\Cybernetic\Hoc C#\HowKTeam\IO_Sample_Program\bin\Debug\net6.0\IO_Sample_Program.dll
+D:\Cybernetic\Hoc C#\HowKTeam\IO_Sample_Program\bin\Debug\net6.0\ref\IO_Sample_Program.dll
+D:\Cybernetic\Hoc C#\HowKTeam\IO_Sample_Program\bin\Debug\net6.0\IO_Sample_Program.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\IO_Sample_Program\obj\Debug\net6.0\IO_Sample_Program.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cybernetic\Hoc C#\HowKTeam\IO_Sample_Program\obj\Debug\net6.0\IO_Sample_Program.AssemblyInfoInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\IO_Sample_Program\obj\Debug\net6.0\IO_Sample_Program.AssemblyInfo.cs
+D:\Cybernetic\Hoc C#\HowKTeam\IO_Sample_Program\obj\Debug\net6.0\IO_Sample_Program.csproj.CoreCompileInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\IO_Sample_Program\obj\Debug\net6.0\IO_Sample_Program.dll
+D:\Cybernetic\Hoc C#\HowKTeam\IO_Sample_Program\obj\Debug\net6.0\ref\IO_Sample_Program.dll
+D:\Cybernetic\Hoc C#\HowKTeam\IO_Sample_Program\obj\Debug\net6.0\IO_Sample_Program.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\IO_Sample_Program\obj\Debug\net6.0\IO_Sample_Program.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+D:\Cybernetic\Hoc C#\HowKTeam\Cau_Truc_Lenh_Co_Ban\bin\Debug\net6.0\Cau_Truc_Lenh_Co_Ban.exe
+D:\Cybernetic\Hoc C#\HowKTeam\Cau_Truc_Lenh_Co_Ban\bin\Debug\net6.0\Cau_Truc_Lenh_Co_Ban.deps.json
+D:\Cybernetic\Hoc C#\HowKTeam\Cau_Truc_Lenh_Co_Ban\bin\Debug\net6.0\Cau_Truc_Lenh_Co_Ban.runtimeconfig.json
+D:\Cybernetic\Hoc C#\HowKTeam\Cau_Truc_Lenh_Co_Ban\bin\Debug\net6.0\Cau_Truc_Lenh_Co_Ban.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Cau_Truc_Lenh_Co_Ban\bin\Debug\net6.0\ref\Cau_Truc_Lenh_Co_Ban.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Cau_Truc_Lenh_Co_Ban\bin\Debug\net6.0\Cau_Truc_Lenh_Co_Ban.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\Cau_Truc_Lenh_Co_Ban\obj\Debug\net6.0\Cau_Truc_Lenh_Co_Ban.csproj.AssemblyReference.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Cau_Truc_Lenh_Co_Ban\obj\Debug\net6.0\Cau_Truc_Lenh_Co_Ban.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cybernetic\Hoc C#\HowKTeam\Cau_Truc_Lenh_Co_Ban\obj\Debug\net6.0\Cau_Truc_Lenh_Co_Ban.AssemblyInfoInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Cau_Truc_Lenh_Co_Ban\obj\Debug\net6.0\Cau_Truc_Lenh_Co_Ban.AssemblyInfo.cs
+D:\Cybernetic\Hoc C#\HowKTeam\Cau_Truc_Lenh_Co_Ban\obj\Debug\net6.0\Cau_Truc_Lenh_Co_Ban.csproj.CoreCompileInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Cau_Truc_Lenh_Co_Ban\obj\Debug\net6.0\Cau_Truc_Lenh_Co_Ban.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Cau_Truc_Lenh_Co_Ban\obj\Debug\net6.0\ref\Cau_Truc_Lenh_Co_Ban.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Cau_Truc_Lenh_Co_Ban\obj\Debug\net6.0\Cau_Truc_Lenh_Co_Ban.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\Cau_Truc_Lenh_Co_Ban\obj\Debug\net6.0\Cau_Truc_Lenh_Co_Ban.genruntimeconfig.cache

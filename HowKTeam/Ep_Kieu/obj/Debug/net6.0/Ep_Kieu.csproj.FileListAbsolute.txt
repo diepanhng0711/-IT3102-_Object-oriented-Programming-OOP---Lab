@@ -1,0 +1,14 @@
+D:\Cybernetic\Hoc C#\HowKTeam\Ep_Kieu\bin\Debug\net6.0\Ep_Kieu.exe
+D:\Cybernetic\Hoc C#\HowKTeam\Ep_Kieu\bin\Debug\net6.0\Ep_Kieu.deps.json
+D:\Cybernetic\Hoc C#\HowKTeam\Ep_Kieu\bin\Debug\net6.0\Ep_Kieu.runtimeconfig.json
+D:\Cybernetic\Hoc C#\HowKTeam\Ep_Kieu\bin\Debug\net6.0\Ep_Kieu.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Ep_Kieu\bin\Debug\net6.0\ref\Ep_Kieu.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Ep_Kieu\bin\Debug\net6.0\Ep_Kieu.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\Ep_Kieu\obj\Debug\net6.0\Ep_Kieu.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cybernetic\Hoc C#\HowKTeam\Ep_Kieu\obj\Debug\net6.0\Ep_Kieu.AssemblyInfoInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Ep_Kieu\obj\Debug\net6.0\Ep_Kieu.AssemblyInfo.cs
+D:\Cybernetic\Hoc C#\HowKTeam\Ep_Kieu\obj\Debug\net6.0\Ep_Kieu.csproj.CoreCompileInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Ep_Kieu\obj\Debug\net6.0\Ep_Kieu.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Ep_Kieu\obj\Debug\net6.0\ref\Ep_Kieu.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Ep_Kieu\obj\Debug\net6.0\Ep_Kieu.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\Ep_Kieu\obj\Debug\net6.0\Ep_Kieu.genruntimeconfig.cache

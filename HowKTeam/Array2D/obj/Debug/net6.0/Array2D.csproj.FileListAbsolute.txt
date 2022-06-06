@@ -1,0 +1,14 @@
+D:\Cybernetic\Hoc C#\HowKTeam\Array2D\bin\Debug\net6.0\Array2D.exe
+D:\Cybernetic\Hoc C#\HowKTeam\Array2D\bin\Debug\net6.0\Array2D.deps.json
+D:\Cybernetic\Hoc C#\HowKTeam\Array2D\bin\Debug\net6.0\Array2D.runtimeconfig.json
+D:\Cybernetic\Hoc C#\HowKTeam\Array2D\bin\Debug\net6.0\Array2D.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Array2D\bin\Debug\net6.0\ref\Array2D.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Array2D\bin\Debug\net6.0\Array2D.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\Array2D\obj\Debug\net6.0\Array2D.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cybernetic\Hoc C#\HowKTeam\Array2D\obj\Debug\net6.0\Array2D.AssemblyInfoInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Array2D\obj\Debug\net6.0\Array2D.AssemblyInfo.cs
+D:\Cybernetic\Hoc C#\HowKTeam\Array2D\obj\Debug\net6.0\Array2D.csproj.CoreCompileInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Array2D\obj\Debug\net6.0\Array2D.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Array2D\obj\Debug\net6.0\ref\Array2D.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Array2D\obj\Debug\net6.0\Array2D.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\Array2D\obj\Debug\net6.0\Array2D.genruntimeconfig.cache
