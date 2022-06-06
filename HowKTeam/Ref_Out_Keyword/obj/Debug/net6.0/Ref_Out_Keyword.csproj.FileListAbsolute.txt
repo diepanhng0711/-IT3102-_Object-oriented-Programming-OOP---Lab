@@ -1,0 +1,15 @@
+D:\Cybernetic\Hoc C#\HowKTeam\Ref_Out_Keyword\bin\Debug\net6.0\Ref_Out_Keyword.exe
+D:\Cybernetic\Hoc C#\HowKTeam\Ref_Out_Keyword\bin\Debug\net6.0\Ref_Out_Keyword.deps.json
+D:\Cybernetic\Hoc C#\HowKTeam\Ref_Out_Keyword\bin\Debug\net6.0\Ref_Out_Keyword.runtimeconfig.json
+D:\Cybernetic\Hoc C#\HowKTeam\Ref_Out_Keyword\bin\Debug\net6.0\Ref_Out_Keyword.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Ref_Out_Keyword\bin\Debug\net6.0\ref\Ref_Out_Keyword.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Ref_Out_Keyword\bin\Debug\net6.0\Ref_Out_Keyword.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\Ref_Out_Keyword\obj\Debug\net6.0\Ref_Out_Keyword.csproj.AssemblyReference.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Ref_Out_Keyword\obj\Debug\net6.0\Ref_Out_Keyword.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cybernetic\Hoc C#\HowKTeam\Ref_Out_Keyword\obj\Debug\net6.0\Ref_Out_Keyword.AssemblyInfoInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Ref_Out_Keyword\obj\Debug\net6.0\Ref_Out_Keyword.AssemblyInfo.cs
+D:\Cybernetic\Hoc C#\HowKTeam\Ref_Out_Keyword\obj\Debug\net6.0\Ref_Out_Keyword.csproj.CoreCompileInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Ref_Out_Keyword\obj\Debug\net6.0\Ref_Out_Keyword.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Ref_Out_Keyword\obj\Debug\net6.0\ref\Ref_Out_Keyword.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Ref_Out_Keyword\obj\Debug\net6.0\Ref_Out_Keyword.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\Ref_Out_Keyword\obj\Debug\net6.0\Ref_Out_Keyword.genruntimeconfig.cache

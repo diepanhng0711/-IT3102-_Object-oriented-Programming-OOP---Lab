@@ -1,0 +1,15 @@
+D:\Cybernetic\Hoc C#\HowKTeam\[Loops]Goto\bin\Debug\net6.0\[Loops]Goto.exe
+D:\Cybernetic\Hoc C#\HowKTeam\[Loops]Goto\bin\Debug\net6.0\[Loops]Goto.deps.json
+D:\Cybernetic\Hoc C#\HowKTeam\[Loops]Goto\bin\Debug\net6.0\[Loops]Goto.runtimeconfig.json
+D:\Cybernetic\Hoc C#\HowKTeam\[Loops]Goto\bin\Debug\net6.0\[Loops]Goto.dll
+D:\Cybernetic\Hoc C#\HowKTeam\[Loops]Goto\bin\Debug\net6.0\ref\[Loops]Goto.dll
+D:\Cybernetic\Hoc C#\HowKTeam\[Loops]Goto\bin\Debug\net6.0\[Loops]Goto.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\[Loops]Goto\obj\Debug\net6.0\[Loops]Goto.csproj.AssemblyReference.cache
+D:\Cybernetic\Hoc C#\HowKTeam\[Loops]Goto\obj\Debug\net6.0\[Loops]Goto.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cybernetic\Hoc C#\HowKTeam\[Loops]Goto\obj\Debug\net6.0\[Loops]Goto.AssemblyInfoInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\[Loops]Goto\obj\Debug\net6.0\[Loops]Goto.AssemblyInfo.cs
+D:\Cybernetic\Hoc C#\HowKTeam\[Loops]Goto\obj\Debug\net6.0\[Loops]Goto.csproj.CoreCompileInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\[Loops]Goto\obj\Debug\net6.0\[Loops]Goto.dll
+D:\Cybernetic\Hoc C#\HowKTeam\[Loops]Goto\obj\Debug\net6.0\ref\[Loops]Goto.dll
+D:\Cybernetic\Hoc C#\HowKTeam\[Loops]Goto\obj\Debug\net6.0\[Loops]Goto.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\[Loops]Goto\obj\Debug\net6.0\[Loops]Goto.genruntimeconfig.cache

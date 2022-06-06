@@ -1,0 +1,15 @@
+D:\Cybernetic\Hoc C#\HowKTeam\Function_Structure\bin\Debug\net6.0\Function_Structure.exe
+D:\Cybernetic\Hoc C#\HowKTeam\Function_Structure\bin\Debug\net6.0\Function_Structure.deps.json
+D:\Cybernetic\Hoc C#\HowKTeam\Function_Structure\bin\Debug\net6.0\Function_Structure.runtimeconfig.json
+D:\Cybernetic\Hoc C#\HowKTeam\Function_Structure\bin\Debug\net6.0\Function_Structure.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Function_Structure\bin\Debug\net6.0\ref\Function_Structure.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Function_Structure\bin\Debug\net6.0\Function_Structure.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\Function_Structure\obj\Debug\net6.0\Function_Structure.csproj.AssemblyReference.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Function_Structure\obj\Debug\net6.0\Function_Structure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cybernetic\Hoc C#\HowKTeam\Function_Structure\obj\Debug\net6.0\Function_Structure.AssemblyInfoInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Function_Structure\obj\Debug\net6.0\Function_Structure.AssemblyInfo.cs
+D:\Cybernetic\Hoc C#\HowKTeam\Function_Structure\obj\Debug\net6.0\Function_Structure.csproj.CoreCompileInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Function_Structure\obj\Debug\net6.0\Function_Structure.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Function_Structure\obj\Debug\net6.0\ref\Function_Structure.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Function_Structure\obj\Debug\net6.0\Function_Structure.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\Function_Structure\obj\Debug\net6.0\Function_Structure.genruntimeconfig.cache

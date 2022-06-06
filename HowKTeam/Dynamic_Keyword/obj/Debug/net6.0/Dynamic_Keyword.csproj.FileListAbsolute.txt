@@ -1,0 +1,15 @@
+D:\Cybernetic\Hoc C#\HowKTeam\Dynamic_Keyword\bin\Debug\net6.0\Dynamic_Keyword.exe
+D:\Cybernetic\Hoc C#\HowKTeam\Dynamic_Keyword\bin\Debug\net6.0\Dynamic_Keyword.deps.json
+D:\Cybernetic\Hoc C#\HowKTeam\Dynamic_Keyword\bin\Debug\net6.0\Dynamic_Keyword.runtimeconfig.json
+D:\Cybernetic\Hoc C#\HowKTeam\Dynamic_Keyword\bin\Debug\net6.0\Dynamic_Keyword.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Dynamic_Keyword\bin\Debug\net6.0\ref\Dynamic_Keyword.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Dynamic_Keyword\bin\Debug\net6.0\Dynamic_Keyword.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\Dynamic_Keyword\obj\Debug\net6.0\Dynamic_Keyword.csproj.AssemblyReference.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Dynamic_Keyword\obj\Debug\net6.0\Dynamic_Keyword.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cybernetic\Hoc C#\HowKTeam\Dynamic_Keyword\obj\Debug\net6.0\Dynamic_Keyword.AssemblyInfoInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Dynamic_Keyword\obj\Debug\net6.0\Dynamic_Keyword.AssemblyInfo.cs
+D:\Cybernetic\Hoc C#\HowKTeam\Dynamic_Keyword\obj\Debug\net6.0\Dynamic_Keyword.csproj.CoreCompileInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Dynamic_Keyword\obj\Debug\net6.0\Dynamic_Keyword.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Dynamic_Keyword\obj\Debug\net6.0\ref\Dynamic_Keyword.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Dynamic_Keyword\obj\Debug\net6.0\Dynamic_Keyword.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\Dynamic_Keyword\obj\Debug\net6.0\Dynamic_Keyword.genruntimeconfig.cache

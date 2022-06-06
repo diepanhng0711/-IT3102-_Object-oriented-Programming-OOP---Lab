@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Cau_Truc_Lenh_Co_Ban/1.0.0": {
+        "runtime": {
+          "Cau_Truc_Lenh_Co_Ban.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cau_Truc_Lenh_Co_Ban/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

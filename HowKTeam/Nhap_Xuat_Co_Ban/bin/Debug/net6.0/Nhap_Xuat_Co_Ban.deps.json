@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Nhap_Xuat_Co_Ban/1.0.0": {
+        "runtime": {
+          "Nhap_Xuat_Co_Ban.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Nhap_Xuat_Co_Ban/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nhap_Xuat_Co_Ban", "Nhap_Xuat_Co_Ban.csproj", "{A30DD1A4-FFAF-4C86-956C-14FDF66D7437}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A30DD1A4-FFAF-4C86-956C-14FDF66D7437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30DD1A4-FFAF-4C86-956C-14FDF66D7437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30DD1A4-FFAF-4C86-956C-14FDF66D7437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30DD1A4-FFAF-4C86-956C-14FDF66D7437}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F491480-320F-472F-A75E-3C134AE677A8}
+	EndGlobalSection
+EndGlobal

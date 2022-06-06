@@ -1,0 +1,14 @@
+D:\Cybernetic\Hoc C#\HowKTeam\Bien_Program\bin\Debug\net6.0\Bien_Program.exe
+D:\Cybernetic\Hoc C#\HowKTeam\Bien_Program\bin\Debug\net6.0\Bien_Program.deps.json
+D:\Cybernetic\Hoc C#\HowKTeam\Bien_Program\bin\Debug\net6.0\Bien_Program.runtimeconfig.json
+D:\Cybernetic\Hoc C#\HowKTeam\Bien_Program\bin\Debug\net6.0\Bien_Program.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Bien_Program\bin\Debug\net6.0\ref\Bien_Program.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Bien_Program\bin\Debug\net6.0\Bien_Program.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\Bien_Program\obj\Debug\net6.0\Bien_Program.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cybernetic\Hoc C#\HowKTeam\Bien_Program\obj\Debug\net6.0\Bien_Program.AssemblyInfoInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Bien_Program\obj\Debug\net6.0\Bien_Program.AssemblyInfo.cs
+D:\Cybernetic\Hoc C#\HowKTeam\Bien_Program\obj\Debug\net6.0\Bien_Program.csproj.CoreCompileInputs.cache
+D:\Cybernetic\Hoc C#\HowKTeam\Bien_Program\obj\Debug\net6.0\Bien_Program.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Bien_Program\obj\Debug\net6.0\ref\Bien_Program.dll
+D:\Cybernetic\Hoc C#\HowKTeam\Bien_Program\obj\Debug\net6.0\Bien_Program.pdb
+D:\Cybernetic\Hoc C#\HowKTeam\Bien_Program\obj\Debug\net6.0\Bien_Program.genruntimeconfig.cache
